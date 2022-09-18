@@ -1,0 +1,62 @@
+{
+  "idCategory": "8",
+  "nameCategory": "Animals (part2)",
+  "words" : [
+    {  
+      "idWord": "1",
+      "langRU": "стрекоза",
+      "langEN": "dragonfly",
+      "picture": "dragonfly",
+      "sound": "dragonfly"
+    },
+    {  
+      "idWord": "2",
+      "langRU": "муха",
+      "langEN": "fly",
+      "picture": "fly",
+      "sound": "fly"
+    },
+    {  
+      "idWord": "3",
+      "langRU": "кузнечик",
+      "langEN": "grasshopper",
+      "picture": "grasshopper",
+      "sound": "grasshopper"
+    },
+    {  
+      "idWord": "4",
+      "langRU": "оса",
+      "langEN": "wasp",
+      "picture": "wasp",
+      "sound": "wasp"
+    },
+    {  
+      "idWord": "5",
+      "langRU": "медведь",
+      "langEN": "bear",
+      "picture": "bear",
+      "sound": "bear"
+    },
+    {  
+      "idWord": "6",
+      "langRU": "бобер",
+      "langEN": "beaver",
+      "picture": "beaver",
+      "sound": "beaver"
+    },
+    {  
+      "idWord": "7",
+      "langRU": "лисица",
+      "langEN": "fox",
+      "picture": "fox",
+      "sound": "fox"
+    },
+    {  
+      "idWord": "8",
+      "langRU": "заяц",
+      "langEN": "hare",
+      "picture": "hare",
+      "sound": "hare"
+    }
+  ]
+}

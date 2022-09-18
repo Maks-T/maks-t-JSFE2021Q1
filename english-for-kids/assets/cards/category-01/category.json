@@ -1,0 +1,62 @@
+{
+  "idCategory": "1",
+  "nameCategory": "Body parts (part1)",
+  "words" : [
+    {  
+      "idWord": "1",
+      "langRU": "щека",
+      "langEN": "cheek",
+      "picture": "cheek",
+      "sound": "cheek"
+    },
+    {  
+      "idWord": "2",
+      "langRU": "подбородок",
+      "langEN": "chin",
+      "picture": "chin",
+      "sound": "chin"
+    },
+    {  
+      "idWord": "3",
+      "langRU": "глаз",
+      "langEN": "eye",
+      "picture": "eye",
+      "sound": "eye"
+    },
+    {  
+      "idWord": "4",
+      "langRU": "волосы",
+      "langEN": "hair",
+      "picture": "hair",
+      "sound": "hair"
+    },
+    {  
+      "idWord": "5",
+      "langRU": "голова",
+      "langEN": "head",
+      "picture": "head",
+      "sound": "head"
+    },
+    {  
+      "idWord": "6",
+      "langRU": "нос",
+      "langEN": "nose",
+      "picture": "nose",
+      "sound": "nose"
+    },
+    {  
+      "idWord": "7",
+      "langRU": "шея",
+      "langEN": "neck",
+      "picture": "neck",
+      "sound": "neck"
+    },
+    {  
+      "idWord": "8",
+      "langRU": "палец",
+      "langEN": "finger",
+      "picture": "finger",
+      "sound": "finger"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "idCategory": "7",
+  "nameCategory": "Animals (part1)",
+  "words" : [
+    {  
+      "idWord": "1",
+      "langRU": "лягушка",
+      "langEN": "frog",
+      "picture": "frog",
+      "sound": "frog"
+    },
+    {  
+      "idWord": "2",
+      "langRU": "скорпион",
+      "langEN": "scorpion",
+      "picture": "scorpion",
+      "sound": "scorpion"
+    },
+    {  
+      "idWord": "3",
+      "langRU": "птица",
+      "langEN": "bird",
+      "picture": "bird",
+      "sound": "bird"
+    },
+    {  
+      "idWord": "4",
+      "langRU": "рыба",
+      "langEN": "fish",
+      "picture": "fish",
+      "sound": "fish"
+    },
+    {  
+      "idWord": "5",
+      "langRU": "акула",
+      "langEN": "shark",
+      "picture": "shark",
+      "sound": "shark"
+    },
+    {  
+      "idWord": "6",
+      "langRU": "кит",
+      "langEN": "whale",
+      "picture": "whale",
+      "sound": "whale"
+    },
+    {  
+      "idWord": "7",
+      "langRU": "пчела",
+      "langEN": "bee",
+      "picture": "bee",
+      "sound": "bee"
+    },
+    {  
+      "idWord": "8",
+      "langRU": "жук",
+      "langEN": "beetle",
+      "picture": "beetle",
+      "sound": "beetle"
+    }
+   
+  ]
+}

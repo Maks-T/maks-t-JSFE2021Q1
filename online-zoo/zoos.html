@@ -1,0 +1,323 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Online-zoo-zoos</title>
+        <link rel="stylesheet" href="styles/reset.css"/>
+        <link rel="stylesheet" href="styles/style.css"/>        
+        <link rel="stylesheet" href="pages/zoos/zoos.css"/>     
+        <link rel="stylesheet" href="pages/zoos/panda.css"/>
+        <script src="./pages/zoos/zoos.js" defer></script>
+      </head>
+      <body>
+        <header class="header">
+          <div class="wrapper">
+            <div class="header_wrapper">
+              <h1>PetStory online</h1> 
+              <img src="assets/icons/burger_menu.svg" alt="menu icon" class="header__menu-icon">
+              <div class="logo">
+                <a href="index.html" class="logo__link">
+                  <p class="logo__text">PetStory online</p>
+                  <img src="assets/icons/bamboo.svg" alt="logo" class="logo__bamboo">
+                  <img src="assets/icons/bamboo-gr.svg" alt="logo" class="logo__bamboo logo__bamboo_orange">
+                </a>
+              </div>
+              
+              <nav class="header__nav">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="index.html" class="nav__link">About</a</li>
+                  <li class="nav__item"><a href="map.html" class="nav__link">Map</a></li>
+                  <li class="nav__item"><a href="zoos.html" class="nav__link">Zoos</a></li>
+                  <li class="nav__item"><a href="404.html" class="nav__link">Contact us</a></li>
+                  <li class="nav__item"><a href="donate.html" class="nav__link">Donate</a></li>
+                  <li class="nav__item"><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="nav__link">Designed by ©</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+      
+        <main class="main">
+          <div class="wrapper main_wrapper">
+            <aside class="sidebar">
+              <a href="pages/zoos/alligator.html" class="sidebar__element" title="alligator">
+                <img src="pages/zoos/icons/alligator_icon.svg" alt="alligator icon" class="sidebar__icon">
+                <img src="pages/zoos/icons/alligator_icon_green.svg" alt="alligator icon" class="sidebar__icon_green">
+              </a>
+              <a href="pages/zoos/eagle.html" class="sidebar__element" title="eagle">
+                <img src="pages/zoos/icons/eagle_icon.svg" alt="eagle icon" class="sidebar__icon">
+                <img src="pages/zoos/icons/eagle_icon_green.svg" alt="eagle icon" class="sidebar__icon_green">
+              </a>
+              <a href="pages/zoos/gorilla.html" class="sidebar__element" title="gorilla">
+                <img src="pages/zoos/icons/gorilla_icon.svg" alt="gorilla icon" class="sidebar__icon">
+                <img src="pages/zoos/icons/gorilla_icon_green.svg" alt="gorilla icon" class="sidebar__icon_green">
+              </a>
+              <a  class="sidebar__element" title="panda">
+                <img src="pages/zoos/icons/panda_icon.svg" alt="panda icon" class="sidebar__icon">
+                <img src="pages/zoos/icons/panda_icon_green.svg" alt="panda icon" class="sidebar__icon_green">
+              </a>
+              <a  href="404.html" class="sidebar__element" title="penguin">
+                <img src="pages/zoos/icons/penguin_icon.svg" alt="penguin icon" class="sidebar__icon">
+                <img src="pages/zoos/icons/penguin_icon_green.svg" alt="penguin icon" class="sidebar__icon_green">
+              </a>
+              <a  href="404.html" class="sidebar__element" title="sloth">
+                <img src="pages/zoos/icons/sloth_icon.svg" alt="sloth icon" class="sidebar__icon">
+                <img src="pages/zoos/icons/sloth_icon_green.svg" alt="sloth icon" class="sidebar__icon_green">
+              </a>
+              <a class="sidebar__element">
+                <img src="pages/zoos/icons/arrow_elips_2_down.svg" alt="arrow in elips icon" class="sidebar__icon">
+                <img src="pages/zoos/icons/arrow_elips_2_down_green.svg" alt="arrow in elips icon" class="sidebar__icon_green">
+              </a>
+            </aside>
+
+            <div class="main__sections">
+      
+              <section class="animal-camera">
+                <div class="section-wrapper">
+                  <!-- camera name -->
+                  <h2 class="animal-camera__title">Panda camera</h2>
+                  <iframe src="https://www.youtube.com/embed/65JHo3Cy2tY" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen class="animal-camera__window">
+                  </iframe>
+                 
+                  <div class="karusel">
+                    <button type="button" class="button-for-slider button-for-slider_left karusel__button-for-slider-left"></button>
+                    <div class="karusel_wrapper"> 
+                      <div class="karusel__element hidden">
+                        <iframe class="karusel__window" 
+                           src="https://www.youtube.com/embed/wPTN0Wfgjg0" 
+                           title="YouTube video player" 
+                           frameborder="0" 
+                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                           allowfullscreen>
+                        </iframe>
+                        <h3 class="karusel__text">live</h3>
+                        <div class="karusel__plug"></div>
+                      </div>
+                      <div class="karusel__element hidden">
+                        <iframe class="karusel__window" 
+                          src="https://www.youtube.com/embed/OObOQ2GElhA" 
+                          title="YouTube video player" 
+                          frameborder="0" 
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                          allowfullscreen>
+                        </iframe>
+                        <h3 class="karusel__text">live</h3>
+                        <div class="karusel__plug"></div>
+                      </div>
+                      <div class="karusel__element hidden">
+                        <iframe class="karusel__window"
+                          src="https://www.youtube.com/embed/5DzTwbyBhEc" 
+                          title="YouTube video player" 
+                          frameborder="0" 
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                          allowfullscreen>
+                        </iframe>
+                        <h3 class="karusel__text">live</h3>
+                        <div class="karusel__plug"></div>
+                      </div>
+                      <div class="karusel__element hidden">
+                        <iframe class="karusel__window" 
+                          src="https://www.youtube.com/embed/65JHo3Cy2tY" 
+                          title="YouTube video player" 
+                          frameborder="0" 
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                          allowfullscreen>
+                        <h3 class="karusel__text">live</h3>
+                        <div class="karusel__plug"></div>
+                      </div>
+                      <div class="karusel__element hidden">
+                        <iframe class="karusel__window" 
+                          src="https://www.youtube.com/embed/dqT-UlYlg1s" 
+                          title="YouTube video player" 
+                          frameborder="0" 
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                          allowfullscreen>
+                      </iframe>
+                        <h3 class="karusel__text">live</h3>
+                        <div class="karusel__plug"></div>
+                      </div>
+                      <div class="karusel__element hidden">
+                        <iframe class="karusel__window" 
+                          src="https://www.youtube.com/embed/yYp_Shk7XcI" 
+                          title="YouTube video player" 
+                          frameborder="0" 
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                          allowfullscreen>
+                        </iframe>
+                        <h3 class="karusel__text">live</h3>
+                        <div class="karusel__plug"></div>
+                      </div>
+                      <div class="karusel__element hidden">
+                        <iframe class="karusel__window" 
+                          src="https://www.youtube.com/embed/9fmn8I2Gs6w" 
+                          title="YouTube video player" 
+                          frameborder="0" 
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                          allowfullscreen>
+                      </iframe>
+                        <h3 class="karusel__text">live</h3>
+                        <div class="karusel__plug"></div>
+                      </div>
+                    </div>
+                    <button type="button" class="button-for-slider button-for-slider_right karusel__button-for-slider-right"></button>
+                  </div>
+                </div> 
+              </section>
+      
+              <article class="article">
+                <div class="section-wrapper">
+                  <section class="information">
+                    <!-- animal name -->
+                    <h2 class="information__title">Giant Panda</h2>
+                    <div class="information_wrapper">
+                      <!-- animal foto -->
+                      <img src="pages/zoos/images/Giant Panda-foto.jpg" alt="Giant Panda" class="information__foto">
+                      <p class="information__text">
+                        Giant pandas are very <a href="https://en.wikipedia.org/wiki/Giant_panda" class="information__link">
+                        unusual animals</a>  that eat almost exclusively 
+                        <a href="https://en.wikipedia.org/wiki/Bamboo" class="information__link">bamboo</a>, 
+                        which is very low in nutrients. Because of this, they have many unique 
+                        adaptations for their low-energy lifestyle. Giant pandas are solitary, 
+                        with males and females coming together only briefly to mate. Habitat 
+                        loss is the primary threat to this species. Its popularity around the 
+                        world has helped the giant panda become the focus of successful 
+                        conservation programs.
+                      </p>
+                      <button type="button" type="button" class="button button_information">Feed a friend now</button>
+                    </div>
+                  </section>
+                  <section class="donate">
+                    <div class="donate__text donate__text_less">
+                      <h4 class="donate__text-h4_inline">Diet: </h4> Herbivore (They also are offered nutritious high-fiber biscuits and fruits such as apples or <a href="https://en.wikipedia.org/wiki/giant_panda"<a href="https://en.wikipedia.org/wiki/giant_panda" class="information__link">sweet potatoes</a>) <br>
+                      <h4 class="donate__text-h4_inline">Range: </h4> Eastern Asia <a href="map.html" class="information__link">[VIEW MAP]</a> <br>
+                      <h4 class="donate__text-h4_inline">Habitat: </h4> Forests (Simulation of the <a href="https://en.wikipedia.org/wiki/giant_panda"<a href="https://en.wikipedia.org/wiki/giant_panda" class="information__link">natural environment</a> ) <br>
+                      <h4>General Information: </h4>
+                      <p class="donate__text_p">Giant pandas are bears and are members of the <a href="https://en.wikipedia.org/wiki/giant_panda"<a href="https://en.wikipedia.org/wiki/giant_panda" class="information__link">Order Carnivora</a> . They are unique because, although they evolved among the mostly carnivorous bear species of the world, their diet is vegetarian. Despite the availability of other plants, they feed almost exclusively on bamboo.</p> 
+                      <p class="donate__text_p">Giant pandas communicate with one another in dense bamboo forests primarily by scent. Males regularly scent-mark the margins of their territories by adopting a “headstand” position to mark a bamboo stalk with their anogenital glands.</p>
+                      <h4>Physical features and characteristics:</h4>
+                      <p class="donate__text_p">The low nutrient value of bamboo figures prominently in the biology of the giant panda. They have extremely powerful jaws and associated muscles to crunch through the woody stems of bamboo. Each hand bears a <a href="https://en.wikipedia.org/wiki/giant_panda"<a href="https://en.wikipedia.org/wiki/giant_panda" class="information__link">specialized metacarpal bone</a> in the wrist that functions as a thumb would in humans, to allow them to grasp the circular bamboo stalks. While other herbivorous animals, such as antelope, zebras, or rabbits, have very long digestive tracts, the giant panda retains an essentially bear-like digestive tract. Thus, the digestive efficiency of the bamboo they consume is quite low. Examination of the feces demonstrates that their food has been only partially digested. The low nutrient value of their food and their low digestive efficiency results in an animal that is constrained to a low-metabolism. This lifestyle explains why giant pandas sleep so often and why they eat such <a href="https://en.wikipedia.org/wiki/giant_panda"<a href="https://en.wikipedia.org/wiki/giant_panda" class="information__link">enormous</a> amounts of bamboo.
+                      </p>
+                      <p class="donate__text_p">
+                        Individuals do not travel long distances, and males will establish territories that are not particularly large compared with other species in the Order Carnivora. Adult females average about 230 pounds in weight, with males sometimes reaching 350 pounds. Their hair is very dense, conserving their body heat in their cold habitats. Their iconic coloration remains a mystery to scientists but may aid with camouflage.
+                      </p>
+                      <h4>Lifestyle and reproduction:</h4>
+                      <p class="donate__text_p">
+                        Females are fertile for only a very short period of time and exhibit delayed implantation. Although twins are not unusual, a mother will typically only rear one cub. Adults are solitary, with mating pairings being quite brief. The tiny cubs are altricial, or not born in an advanced state of development, and are completely helpless, blind and deaf, and without the fur <a href="https://en.wikipedia.org/wiki/giant_panda"<a href="https://en.wikipedia.org/wiki/giant_panda" class="information__link">necessary</a> to regulate their own body temperatures. As a result, maternal care is extensive. Cubs do not begin eating bamboo until they are around a year old.
+                      </p>
+                      <p class="donate__text_p">
+                        When twins are born in zoos, extraordinary measures are taken to train the female to accept swapping of her cubs regularly 24 hours a day, so that she only cares for one a time, but that both receive adequate care.
+                      </p>
+                      <h4>Habitat:</h4>
+                      <p class="donate__text_p">
+                        Their preferred cool and wet bamboo forests are found at <a href="https://en.wikipedia.org/wiki/giant_panda"<a href="https://en.wikipedia.org/wiki/giant_panda" class="information__link">elevations</a> between 5,000 and 10,000 feet. Cubs are raised in rocky crevices, dead trees, or caves.
+                      </p>
+                      <h4>Diet:</h4>
+                      <p class="donate__text_p">
+                        Our animal care professionals offer each adult or subadult giant panda about 80 pounds of various bamboo species per day, and they generally select and consume only about third of that. They also are offered nutritious <a href="https://en.wikipedia.org/wiki/giant_panda"<a href="https://en.wikipedia.org/wiki/giant_panda" class="information__link">high-fiber biscuits</a> and fruits such as apples or sweet potatoes.
+                      </p>
+                    </div>
+                  <button type="button" class="button2 btnReadLess">Read Less</button>                
+                  <button type="button" class="button2 btnReadMore">Read More</button>
+
+                    <div class="donate__button">
+                      <button type="button" class="button button_donate"> 
+                        <a href="donate.html" class="button_link">donate</a> 
+                      </button>
+                    </div>
+                  </section>
+                </div>
+              </article>
+            </div>
+
+            <img src="pages/zoos/images/strelitzia.jpg" alt="trelitzia" class="foto-flower foto-flower_left">     
+            <img src="pages/zoos/images/leave_foto.jpg" alt="leave" class="foto-flower foto-flower_right">     
+          </div>
+        </main> 
+      
+        <footer class="footer">
+          <div class="wrapper">
+            <div class="footer_wrapper">
+              <div class="footer__subscribe">
+                <div class="logo">
+                  <a href="index.html" class="logo__link">
+                    <p class="logo__text">PetStory online</p>
+                    <img src="assets/icons/bamboo.svg" alt="logo" class="logo__bamboo">
+                  </a>
+                </div>
+                <div class="subscribe__bloc-submit">
+                  <p class="subscribe__text">Subscribe to our news</p>
+                  <div class="subscribe__bloc-button-submit">
+                    <form action="url" class="footer__form">
+                      <input type="email" name="email" required placeholder="Enter your email" class="bloc-button-submit__email">
+                      <button type="submit" class="button2">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="button button__footer">
+                <a href="donate.html" class="button_link">donate for volunteers</a> 
+              </button>
+              <div class="footer__nav-bar">
+                <nav class="footer__networks">
+                  <ul class="networks__list">
+                    <li class="networks__item">
+                      <a href="https://www.instagram.com" class="networks__link" target="_blank">
+                        <div class="networks__icon">
+                          <img src="assets/icons/Fill167.svg" alt="icon">
+                        </div>
+                        <p class="networks__name">Instagram</p> 
+                      </a>
+                    </li>
+                    <li class="networks__item">
+                      <a href="https://www.youtube.com/" class="networks__link" target="_blank">
+                        <div class="networks__icon">
+                          <img src="assets/icons/Fill214.svg" alt="icon">
+                        </div>
+                        <p class="networks__name">YouTube</p> 
+                      </a>
+                    </li>
+                    <li class="networks__item">
+                      <a href="https://twitter.com/" class="networks__link" target="_blank">
+                        <div class="networks__icon">
+                          <img src="assets/icons/Fill173.svg" alt="icon">
+                        </div>
+                        <p class="networks__name">Twitter</p> 
+                      </a>
+                    </li>
+                    <li class="networks__item">
+                      <a href="https://www.facebook.com/" class="networks__link" target="_blank">
+                        <div class="networks__icon">
+                          <img src="assets/icons/Fill212.svg" alt="icon">
+                        </div>
+                        <p class="networks__name">Facebook</p> 
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <nav class="footer__nav">
+                  <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">About</a</li>
+                    <li class="nav__item"><a href="map.html" class="nav__link">Map</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Zoos</a></li>
+                    <li class="nav__item"><a href="404.html" class="nav__link">Contact us</a></li>
+                  </ul>
+                </nav>
+                <address class="footer__address">
+                  <p class="address__text">Designed by Alisa Samborskaya</p>
+                  <p class="address__text">©RSSchool & ©Yem Digital 2021</p>
+                </address>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <script src="pages/zoos/zoos.js"></script>
+      </body>
+      </html>
+
+      

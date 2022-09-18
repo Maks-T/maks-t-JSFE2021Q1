@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="./assets/svg/Logo-favicon.svg" rel="shortcut icon">
+    <script src="./js/script.js"></script>
+    <title>Wild Life</title>
+  </head>
+  <body>
+    <!--Header start-->
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__wrapper">
+          <!--Logo start-->
+          <a href="https://youtu.be/KT2-0nKzSjk" class="header__logo-link" target="_blank">
+            <img
+              src="./assets/svg/Logo.svg"
+              alt="logo"
+              class="header__logo-pic"
+            />
+            <span class="header__logo-name">WILDLIFE</span>
+          </a>
+          <!--Logo end-->
+
+          <!--Menu header start-->
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#" class="header__item-link"> Blog </a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__item-link"> Contacts </a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__item-link">
+                  <img
+                    src="./assets/svg/search.svg"
+                    alt="search"
+                    class="header__item-search"
+                  />
+                </a>
+              </li>
+              <li class="header__item">
+                <button href="#" class="header__item-button">Sign in</button>
+              </li>
+            </ul>
+          </nav>
+          <!--Menu header end-->
+        </div>
+      </div>
+    </header>
+    <!-- Header end-->
+
+    <!-- Survival start-->
+    <section class="survival">
+      <div class="survival__wrap">
+        <div class="wrapper">
+          <div class="survival__block">
+            <h1 class="survival__name">Survival</h1>
+            <p class="survival__text">
+              What this means is that we exist to help protect our environment
+              and do in numbers of ways. You can save the planet by donation.
+            </p>
+            <button class="survival__btn">Donate</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Survival end-->
+
+    <!-- Main start-->
+    <main class="main">
+      <div class="main__wrap">
+        <div class="wrapper">
+          <!--Articles section start-->
+          <section class="articles">
+            <h2 class="articles__latest-articles-name">Latest articles</h2>
+            <p class="articles__latest_articles-desc">
+              Breaking news from the wild
+            </p>
+            <div class="articles__slider-box">
+              <div
+                class="articles__slider-btn-left"
+                onclick="clickSliderLeft()"
+              ></div>
+              <figure class="articles__slider-slide">
+                <img src="./assets/Rectangle-1.jpg" alt="Deer" />
+                <figcaption class="articles__slider-figcap">Deer</figcaption>
+                <div class="articles__slider-figcap-desc">
+                  Naturalist investigation
+                </div>
+              </figure>
+              <figure class="articles__slider-slide">
+                <img src="./assets/Rectangle-2.jpg" alt="Squirrel" />
+                <figcaption class="articles__slider-figcap">
+                  Squirrel
+                </figcaption>
+                <div class="articles__slider-figcap-desc">
+                  Kamikaze squirrels
+                </div>
+              </figure>
+              <figure class="articles__slider-slide">
+                <img src="./assets/Rectangle-3.jpg" alt="Bird" />
+                <figcaption class="articles__slider-figcap">Bird</figcaption>
+                <div class="articles__slider-figcap-desc">Birds Fight club</div>
+              </figure>
+              <div
+                class="articles__slider-btn-right"
+                onclick="clickSliderRight()"
+              ></div>
+            </div>
+          </section>
+          <!--Articles section end-->
+
+          <!--For send email start-->
+          <section class="send-email">
+            <form action="#" class="send-email__form">
+              <fieldset class="send-email__wrap">
+                <legend class="send-email__legend">
+                  Get notified about new amazing articles
+                </legend>
+                <p class="send-email__input-wrap">
+                  <input
+                    type="email"
+                    name="user-email"
+                    class="send-email__field"
+                    placeholder="Email"
+                  />
+                  <input type="submit" class="send-email__btn" value="Send" />
+                </p>
+              </fieldset>
+            </form>
+          </section>
+          <!--For send email end-->
+        </div>
+      </div>
+    </main>
+    <!-- Main end-->
+    <!-- Footer start-->
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__wrap-line">
+          <!-- Logo Footer start-->
+          <a href="" class="footer__logo-link">
+            <img
+              src="./assets/svg/Logo.svg"
+              alt="logo"
+              class="footer__logo-pic"
+            />
+            <span class="footer__logo-name">WILDLIFE</span>
+          </a>
+          <!-- Logo Footer end-->
+
+          <!-- Menu Footer start-->
+          <ul class="footer__items">
+            <li class="footer__item">
+              <a href="#" class="footer__item-link"> Articles </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__item-link"> About us </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__item-link"> Learn more </a>
+            </li>
+          </ul>
+          <ul class="footer__icons">
+            <li class="footer__icon">
+              <a href="#" class="footer__icon-link facebook-icon"></a>
+            </li>
+            <li class="footer__icon">
+              <a href="#" class="footer__icon-link instagram-icon"></a>
+            </li>
+            <li class="footer__icon">
+              <a href="#" class="footer__icon-link pinterest-icon"></a>
+            </li>
+            <li class="footer__icon">
+              <a href="https://youtu.be/KT2-0nKzSjk" class="footer__icon-link youtube-icon" target="_blank"></a>
+            </li>
+          </ul>
+          <!-- Menu Footer end-->
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end-->
+  </body>
+</html>

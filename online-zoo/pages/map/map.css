@@ -1,0 +1,331 @@
+
+.nav__list .nav__item:nth-child(2) .nav__link {
+  color: #f9804b;
+  cursor: default;
+  opacity: 100%;
+}
+
+.map {
+  position: relative;  
+  background: #EAF7FE;
+  width: 100%;
+  overflow: hidden;
+  height: 940px;
+}
+.map__wrapper {
+  position: absolute;
+  top: 104px;
+  left: 16vw;
+  background-image: url(icons/map.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 715px;
+  width: 1080px;
+}
+.map__icons {
+  position: absolute;
+}
+.map__icons_icon {
+  display: block;
+} 
+.map__icons_hover:hover {
+  cursor: pointer;
+}
+.map__icons_eagle1 {
+  left: 90px;
+  top: 350px;
+}
+.map__icons_eagle2 {
+  left: 133px;
+  top: 403px;
+}
+.map__icons_crocodile {
+  left: 253px;
+  top: 380px;
+}
+.map__icons_gorillas {
+  left: 540px;
+  top: 472px;
+}
+.map__icons_pandas {
+  left: 798px;
+  top: 374px;
+}
+.map__icons_panda {
+  left: 810px;
+  top: 315px;
+}
+.map__button {
+    position: absolute;
+    right: 40px;
+    width: 54px;
+    height: 54px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.map__button_plus {
+    background: url(icons/Vector1.svg) #ffffff;
+    bottom: 104px;
+}
+.map__button_minus {
+    background: url(icons/Vector.svg) #ffffff;
+    bottom: 40px;
+}
+.map__button_plus,
+.map__button_minus {
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.map__button_plus:active {
+  background: url(icons/Vector1-1.svg);
+}
+.map__button_minus:active {
+  background: url(icons/Vector0-1.svg);
+}
+.map__button:active {
+  border: 1px solid #4B9200;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.map__pop-up {
+  position: absolute;
+  background: url(icons/pop_up.svg);
+  width: 159px;
+  height: 117px;
+  padding-left: 10px;
+  padding-top: 16px;
+  visibility: hidden;
+}
+.map__text {
+  line-height: 140%;
+}
+.button2.button2_pop-up {
+  border: none;
+  height: 31px;
+  width: 136px;
+  margin-top: 11px;
+  background-color: #f9804b;
+}
+.button2_pop-up:active {
+  background-color: #4B9200;
+  border-radius: 5px;
+}
+.map__pop-up_eagle {
+  left: 90px;
+  top: 420px;
+}
+.map__pop-up_crocodile {
+  left: 240px;
+  top: 430px;
+}
+.map__pop-up_gorillas {
+  left: 530px;
+  top: 550px;
+}
+.map__pop-up_panda {
+  left: 780px;
+  top: 420px;
+}
+
+
+@media screen 
+  and (min-width: 999px) 
+  and (max-width: 1599px) {
+
+    .map {
+      height: 748px;      
+    }
+    .map__wrapper {
+      height: 618px;
+      width: 938px;
+      top: 90px;
+      left: 30px;
+    }
+    .map__icons {
+      transform: scale(0.9);
+    }
+    .map__icons_eagle1 {
+      left: 78px;
+      top: 300px;
+    }
+    .map__icons_eagle2 {
+      left: 111px;
+      top: 346px;
+    }
+    .map__icons_crocodile {
+      left: 215px;
+      top: 323px;
+    }
+    .map__icons_gorillas {
+      left: 472px;
+      top: 395px;
+    }
+    .map__icons_pandas {
+      left: 685px;
+      top: 318px;
+    }
+    .map__icons_panda {
+      left: 705px;
+      top: 270px;
+    }
+    .map__pop-up_eagle {
+      left: 80px;
+      top: 370px;
+    }
+    .map__pop-up_crocodile {
+      left: 190px;
+      top: 375px;
+    }
+    .map__pop-up_gorillas {
+      left: 440px;
+      top: 470px;
+    }
+    .map__pop-up_panda {
+      left: 670px;
+      top: 360px;
+    }
+    .map__button {
+      position: sticky;
+    }
+    .map__button-sydebar {
+        height: 200px;
+        width: 80px;
+        margin: 310px 10px 0px 91vw;
+    }
+    .map__button_plus {
+      margin: 98px 10px 0px 92.3vw;
+      bottom: 82px;
+    }
+    .map__button_minus {
+      margin: 8px 10px 20px 92.3vw;
+      bottom: 20px;
+    }
+
+}
+@media screen 
+  and (min-width: 639px) 
+  and (max-width: 999px) {
+
+    .map {
+      height: 508px;
+    }
+    .map__wrapper {
+      height: 392px;
+      width: 594px;
+      top: 93px;
+      left: 4vw;
+    }
+    .map__icons {
+      transform: scale(0.55);
+    }
+    .map__icons_eagle1 {
+      left: 35px;
+      top: 180px;
+    }
+    .map__icons_eagle2 {
+      left: 60px;
+      top: 213px;
+    }
+    .map__icons_crocodile {
+      left: 123px;
+      top: 194px;
+    }
+    .map__icons_gorillas {
+      left: 286px;
+      top: 237px;
+    }
+    .map__icons_pandas {
+      left: 420px;
+      top: 195px;
+    }
+    .map__icons_panda {
+      left: 425px;
+      top: 165px;
+    }
+    .map__pop-up_eagle {
+      left: 20px;
+      top: 235px;
+    }
+    .map__pop-up_crocodile {
+      left: 105px;
+      top: 240px;
+    }
+    .map__pop-up_gorillas {
+      left: 255px;
+      top: 300px;
+    }
+    .map__pop-up_panda {
+      left: 390px;
+      top: 235px;
+    }
+    .map__button {
+      display: none;
+    }
+  
+}
+@media screen 
+  and (min-width: 320px) 
+  and (max-width: 639px) {
+
+    .map {
+      height: 324px;
+    }
+    .map__wrapper {
+      height: 268px;
+      background-size: auto 100%;
+      background-position: -27px;
+      top: 39px;
+      left: 0;
+    }
+    .map__icons {
+      transform: scale(0.4);
+    }
+    .map__icons_eagle1 {
+      left: -15px;
+      top: 117px;
+    }
+    .map__icons_eagle2 {
+      left: 7px;
+      top: 143px;
+    }
+    .map__icons_crocodile {
+      left: 44px;
+      top: 126px;
+    }
+    .map__icons_gorillas {
+      left: 162px;
+      top: 150px;
+    }
+    .map__icons_pandas {
+      left: 247px;
+      top: 128px;
+    }
+    .map__icons_panda {
+      left: 256px;
+      top: 102px;
+    }
+    .map__pop-up_eagle {
+      left: -30px;
+      top: 140px;
+    }
+    .map__pop-up_crocodile {
+      left: 10px;
+      top: 145px;
+    }
+    .map__pop-up_gorillas {
+      left: 120px;
+      top: 180px;
+    }
+    .map__pop-up_panda {
+      left: 190px;
+      top: 135px;
+    }
+    .map__button {
+      display: none;
+    }
+    .map__pop-up {
+      transform: scale(0.6);
+    }
+  
+}
+/*main end*/

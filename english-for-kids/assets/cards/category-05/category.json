@@ -1,0 +1,62 @@
+{
+  "idCategory": "5",
+  "nameCategory": "Weather and seasons (part2)",
+  "words" : [
+    {  
+      "idWord": "1",
+      "langRU": "ветер",
+      "langEN": "wind",
+      "picture": "wind",
+      "sound": "wind"
+    },
+    {  
+      "idWord": "2",
+      "langRU": "темный",
+      "langEN": "dark",
+      "picture": "dark",
+      "sound": "dark"
+    },
+    {  
+      "idWord": "3",
+      "langRU": "гром",
+      "langEN": "thunder",
+      "picture": "thunder",
+      "sound": "thunder"
+    },
+    {  
+      "idWord": "4",
+      "langRU": "дождь",
+      "langEN": "rain",
+      "picture": "rain",
+      "sound": "rain"
+    },
+    {  
+      "idWord": "5",
+      "langRU": "снег",
+      "langEN": "snow",
+      "picture": "snow",
+      "sound": "snow"
+    },
+    {  
+      "idWord": "6",
+      "langRU": "буря",
+      "langEN": "storm",
+      "picture": "storm",
+      "sound": "storm"
+    },
+    {  
+      "idWord": "7",
+      "langRU": "мороз",
+      "langEN": "frost",
+      "picture": "frost",
+      "sound": "frost"
+    },
+    {  
+      "idWord": "8",
+      "langRU": "густой туман",
+      "langEN": "fog",
+      "picture": "fog",
+      "sound": "fog"
+    }
+  ]
+}

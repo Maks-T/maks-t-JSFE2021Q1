@@ -1,0 +1,180 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online-zoo-map</title>
+    <link rel="stylesheet" href="styles/reset.css"/>   
+    <link rel="stylesheet" href="styles/style.css"/>  
+    <link rel="stylesheet" href="pages/map/map.css"/>
+    <script src="pages/map/map.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="wrapper">
+      <div class="header_wrapper">
+        <h1>PetStory online</h1> 
+        <img src="assets/icons/burger_menu.svg" alt="menu icon" class="header__menu-icon">
+        <div class="logo">
+          <a href="index.html" class="logo__link">
+            <p class="logo__text">PetStory online</p>
+            <img src="/assets/icons/bamboo.svg" alt="logo" class="logo__bamboo">
+           
+          </a>
+        </div>
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html" class="nav__link">About</a</li>
+            <li class="nav__item"><a href="map.html" class="nav__link">Map</a></li>
+            <li class="nav__item"><a href="zoos.html" class="nav__link">Zoos</a></li>
+            <li class="nav__item"><a href="404.html" class="nav__link">Contact us</a></li>
+            <li class="nav__item"><a href="donate.html" class="nav__link">Donate</a></li>
+            <li class="nav__item"><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="nav__link">Designed by ©</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="map">
+      <div class="wrapper">
+        <div class="section-wrapper map__wrapper">
+          <div class="map__icons map__icons_eagle1">
+            <img src="pages/map/icons/eagle1.svg" alt="eagle" data-set="egle" class="map__icons_hover">
+            <img src="pages/map/icons/group1.svg" alt="icon">
+          </div>
+          <div  class="map__icons map__icons_eagle2">
+            <img src="pages/map/icons/eagle2.svg" alt="eagle" data-set="egle" class="map__icons_hover">
+          </div>
+          <div class="map__icons map__icons_crocodile">
+            <img src="pages/map/icons/group1.svg" alt="icon" class="map__icons_icon">
+            <img src="pages/map/icons/lonely-crocodile.svg" alt="crocodile" data-set="crocodile" class="map__icons_hover">
+          </div>
+          <div class="map__icons map__icons_gorillas">
+            <img src="pages/map/icons/group1.svg" alt="icon" class="map__icons_icon">
+            <img src="pages/map/icons/gorillas.svg" alt="gorillas" data-set="gorilla" class="map__icons_hover">
+          </div>
+          <div class="map__icons map__icons_pandas">
+            <img src="pages/map/icons/pandas.svg" alt="pandas" data-set="panda" class="map__icons_hover">
+            <img src="pages/map/icons/group1.svg" alt="icon">
+          </div>
+          <div class="map__icons map__icons_panda">
+            <img src="pages/map/icons/panda.svg" alt="panda" data-set="panda" class="map__icons_hover">
+            <img src="pages/map/icons/group1.svg" alt="icon">
+          </div>
+          <div class="map__pop-up map__pop-up_eagle" data-set="egle">
+            <p class="map__text">Eagles</p>
+            <p class="map__text">Los Angeles, USA</p>
+            <button type="button" class="button2 button2_pop-up">
+              <a href="pages/zoos/eagle.html" class="button2__link">Whatch online</a>
+            </button>          </div>
+          <div class="map__pop-up map__pop-up_crocodile" data-set="crocodile">
+            <p class="map__text">Alligators</p>
+            <p class="map__text">Florida, USA</p>
+            <button type="button" class="button2 button2_pop-up">
+              <a href="pages/zoos/alligator.html" class="button2__link">Whatch online</a>
+            </button>          </div>
+          <div class="map__pop-up map__pop-up_gorillas" data-set="gorilla">
+            <p class="map__text">Gorillas</p>
+            <p class="map__text">Congo, Africa</p>
+            <button type="button" class="button2 button2_pop-up">
+              <a href="pages/zoos/gorilla.html" class="button2__link">Whatch online</a>
+            </button>          </div>
+          <div class="map__pop-up map__pop-up_panda" data-set="panda">
+            <p class="map__text">Pandas</p>
+            <p class="map__text">China</p>
+            <button type="button" class="button2 button2_pop-up">
+              <a href="zoos.html" class="button2__link">Whatch online</a>
+            </button>
+          </div>
+        </div>
+        <div class="map__button-sydebar"></div>
+      <button  type="button" class="map__button map__button_plus"></button>
+      <button  type="button" class="map__button map__button_minus"></button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer_wrapper">
+        <div class="footer__subscribe">
+          <div class="logo">
+            <a href="index.html" class="logo__link">
+              <p class="logo__text">PetStory online</p>
+              <img src="assets/icons/bamboo.svg" alt="logo" class="logo__bamboo">
+            </a>
+          </div>
+          <div class="subscribe__bloc-submit">
+            <p class="subscribe__text">Subscribe to our news</p>
+            <div class="subscribe__bloc-button-submit">
+              <form action="url" class="footer__form">
+                <input type="email" name="email" required placeholder="Enter your email" class="bloc-button-submit__email">
+                <button type="submit" class="button2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="button button__footer">
+          <a href="donate.html" class="button_link">donate for volunteers</a> 
+        </button>        
+        <div class="footer__nav-bar">
+          <nav class="footer__networks">
+            <ul class="networks__list">
+              <li class="networks__item">
+                <a href="https://www.instagram.com" class="networks__link" target="_blank">
+                  <div class="networks__icon">
+                    <img src="assets/icons/Fill167.svg" alt="icon">
+                  </div>
+                  <p class="networks__name">Instagram</p> 
+                </a>
+              </li>
+              <li class="networks__item">
+                <a href="https://www.youtube.com/" class="networks__link" target="_blank">
+                  <div class="networks__icon">
+                    <img src="assets/icons/Fill214.svg" alt="icon">
+                  </div>
+                  <p class="networks__name">YouTube</p> 
+                </a>
+              </li>
+              <li class="networks__item">
+                <a href="https://twitter.com/" class="networks__link" target="_blank">
+                  <div class="networks__icon">
+                    <img src="assets/icons/Fill173.svg" alt="icon">
+                  </div>
+                  <p class="networks__name">Twitter</p> 
+                </a>
+              </li>
+              <li class="networks__item">
+                <a href="https://www.facebook.com/" class="networks__link" target="_blank">
+                  <div class="networks__icon">
+                    <img src="assets/icons/Fill212.svg" alt="icon">
+                  </div>
+                  <p class="networks__name">Facebook</p> 
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer__nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="index.html" class="nav__link">About</a</li>
+              <li class="nav__item"><a href="#" class="nav__link">Map</a></li>
+              <li class="nav__item"><a href="zoos.html" class="nav__link">Zoos</a></li>
+              <li class="nav__item"><a href="404.html" class="nav__link">Contact us</a></li>
+            </ul>
+          </nav>
+          <address class="footer__address">
+            <p class="address__text">Designed by Alisa Samborskaya</p>
+            <p class="address__text">©RSSchool & ©Yem Digital 2021</p>
+          </address>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+/*bottom background image */
+.main {
+  background: url(images/background_eagle.jpg) no-repeat;
+  position: relative;
+  background-position: center bottom;
+  background-size: 100% 380px;
+}
+
+/*animal foto*/
+.information__foto {
+  height: 422px;
+}
+
+/*button Feed a friend now*/
+.button_information {
+  margin-top: 77px;
+}
+
+/* Выбранное животное становится не интерактивным*/
+.sidebar__element:nth-child(2) {
+  border: 2px solid #4B9200;
+  cursor:default;
+  opacity: 100%;
+}
+.sidebar__element:nth-child(2) .sidebar__icon{
+  display: none;
+} 
+.sidebar__element:nth-child(2) .sidebar__icon_green{
+  display: block;
+} 
+
+.donate__text {
+  margin-bottom: 180px;
+}
+@media screen 
+and (min-width: 999px) 
+and (max-width: 1599px) {
+
+  .main_wrapper {
+    height: 3000px;
+  } 
+  .donate {
+    margin-top: 0;
+  }
+  .button2_donate {
+    margin-top: 10px;
+  }
+  .donate__button {
+    margin-top: 140px;
+  }
+  .sidebar {
+    margin-bottom: 2200px;
+  }
+  .foto-flower_right {
+    bottom: 313px;
+    right: 0px;
+    width: 165px;
+    height: 235px;
+    transform: rotate(0deg);
+  }
+}
+@media screen 
+and (min-width: 639px) 
+and (max-width: 999px) {
+
+  .main {
+    background-position: bottom -1px left -px;
+    background-size: auto 294px;
+    overflow: hidden;
+  }
+
+}
+@media screen 
+and (min-width: 320px) 
+and (max-width: 639px) {
+
+  .main {
+    background-position: bottom -1px left -148px;
+    background-size: auto 220.5px;
+    overflow: hidden;
+  }
+
+}

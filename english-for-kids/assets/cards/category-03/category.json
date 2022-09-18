@@ -1,0 +1,62 @@
+{
+  "idCategory": "3",
+  "nameCategory": "Verbs",
+  "words" : [
+    {  
+      "idWord": "1",
+      "langRU": "схватить",
+      "langEN": "catch",
+      "picture": "catch",
+      "sound": "catch"
+    },
+    {  
+      "idWord": "2",
+      "langRU": "нырять",
+      "langEN": "dive",
+      "picture": "dive",
+      "sound": "dive"
+    },
+    {  
+      "idWord": "3",
+      "langRU": "лететь",
+      "langEN": "fly",
+      "picture": "fly",
+      "sound": "fly"
+    },
+    {  
+      "idWord": "4",
+      "langRU": "идти",
+      "langEN": "go",
+      "picture": "go",
+      "sound": "go"
+    },
+    {  
+      "idWord": "5",
+      "langRU": "бежать",
+      "langEN": "run",
+      "picture": "run",
+      "sound": "run"
+    },
+    {  
+      "idWord": "6",
+      "langRU": "плыть",
+      "langEN": "swim",
+      "picture": "swim",
+      "sound": "swim"
+    },
+    {  
+      "idWord": "7",
+      "langRU": "наполнять",
+      "langEN": "fill",
+      "picture": "fill",
+      "sound": "fill"
+    },
+    {  
+      "idWord": "8",
+      "langRU": "сидеть",
+      "langEN": "sit",
+      "picture": "sit",
+      "sound": "sit"
+    }
+  ]
+}

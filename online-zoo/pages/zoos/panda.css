@@ -1,0 +1,13 @@
+/* Выбранное животное становится не интерактивным*/
+
+.sidebar__element:nth-child(4) {
+  border: 2px solid #4B9200;
+  cursor:default;
+  opacity: 100%;
+}
+.sidebar__element:nth-child(4) .sidebar__icon{
+  display: none;
+} 
+.sidebar__element:nth-child(4) .sidebar__icon_green{
+  display: block;
+} 

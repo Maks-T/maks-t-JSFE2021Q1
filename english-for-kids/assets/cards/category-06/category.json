@@ -1,0 +1,62 @@
+{
+  "idCategory": "6",
+  "nameCategory": "Food",
+  "words" : [
+    {  
+      "idWord": "1",
+      "langRU": "сыр",
+      "langEN": "cheese",
+      "picture": "cheese",
+      "sound": "cheese"
+    },
+    {  
+      "idWord": "2",
+      "langRU": "яйца",
+      "langEN": "eggs",
+      "picture": "eggs",
+      "sound": "eggs"
+    },
+    {  
+      "idWord": "3",
+      "langRU": "сахар",
+      "langEN": "sugar",
+      "picture": "sugar",
+      "sound": "sugar"
+    },
+    {  
+      "idWord": "4",
+      "langRU": "пицца",
+      "langEN": "pizza",
+      "picture": "pizza",
+      "sound": "pizza"
+    },
+    {  
+      "idWord": "5",
+      "langRU": "чай",
+      "langEN": "tea",
+      "picture": "tea",
+      "sound": "tea"
+    },
+    {  
+      "idWord": "6",
+      "langRU": "вода",
+      "langEN": "water",
+      "picture": "water",
+      "sound": "water"
+    },
+    {  
+      "idWord": "7",
+      "langRU": "курица",
+      "langEN": "chicken",
+      "picture": "chicken",
+      "sound": "chicken"
+    },
+    {  
+      "idWord": "8",
+      "langRU": "морковь",
+      "langEN": "carrot",
+      "picture": "carrot",
+      "sound": "carrot"
+    }
+  ]
+}

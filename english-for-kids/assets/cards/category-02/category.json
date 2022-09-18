@@ -1,0 +1,62 @@
+{
+  "idCategory": "2",
+  "nameCategory": "Body parts (part2)",
+  "words" : [
+    {  
+      "idWord": "1",
+      "langRU": "рот",
+      "langEN": "mouth",
+      "picture": "mouth",
+      "sound": "mouth"
+    },
+    {  
+      "idWord": "2",
+      "langRU": "язык",
+      "langEN": "tongue",
+      "picture": "tongue",
+      "sound": "tongue"
+    },
+    {  
+      "idWord": "3",
+      "langRU": "живот",
+      "langEN": "belly",
+      "picture": "belly",
+      "sound": "belly"
+    },
+    {  
+      "idWord": "4",
+      "langRU": "талия",
+      "langEN": "waist",
+      "picture": "waist",
+      "sound": "waist"
+    },
+    {  
+      "idWord": "5",
+      "langRU": "рука (от кисти до плеча)",
+      "langEN": "arm",
+      "picture": "arm",
+      "sound": "arm"
+    },
+    {  
+      "idWord": "6",
+      "langRU": "ступня",
+      "langEN": "foot",
+      "picture": "foot",
+      "sound": "foot"
+    },
+    {  
+      "idWord": "7",
+      "langRU": "мозг",
+      "langEN": "brain",
+      "picture": "brain",
+      "sound": "brain"
+    },
+    {  
+      "idWord": "8",
+      "langRU": "сердце",
+      "langEN": "heart",
+      "picture": "heart",
+      "sound": "heart"
+    }
+  ]
+}

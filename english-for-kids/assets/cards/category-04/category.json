@@ -1,0 +1,62 @@
+{
+  "idCategory": "4",
+  "nameCategory": "Weather and seasons (part1)",
+  "words" : [
+    {  
+      "idWord": "1",
+      "langRU": "погода",
+      "langEN": "weather",
+      "picture": "weather",
+      "sound": "weather"
+    },
+    {  
+      "idWord": "2",
+      "langRU": "жаркий",
+      "langEN": "hot",
+      "picture": "hot",
+      "sound": "hot"
+    },
+    {  
+      "idWord": "3",
+      "langRU": "солнечный",
+      "langEN": "sunny",
+      "picture": "sunny",
+      "sound": "sunny"
+    },
+    {  
+      "idWord": "4",
+      "langRU": "теплый",
+      "langEN": "warm",
+      "picture": "warm",
+      "sound": "warm"
+    },
+    {  
+      "idWord": "5",
+      "langRU": "холодный",
+      "langEN": "cold",
+      "picture": "cold",
+      "sound": "cold"
+    },
+    {  
+      "idWord": "6",
+      "langRU": "небо",
+      "langEN": "sky",
+      "picture": "sky",
+      "sound": "sky"
+    },
+    {  
+      "idWord": "7",
+      "langRU": "солнце",
+      "langEN": "sun",
+      "picture": "sun",
+      "sound": "sun"
+    },
+    {  
+      "idWord": "8",
+      "langRU": "звезда",
+      "langEN": "star",
+      "picture": "star",
+      "sound": "star"
+    }
+  ]
+}
